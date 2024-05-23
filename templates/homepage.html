@@ -1,12 +1,85 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koyejo Gamaliel Adinlewa, esq | Software Engineer</title>
-    <meta name="desciption" content="Koyejo, a trained lawyer turned Software Engineer, showcasing mastery in C, Python, JavaScript, shell scripting, web stack management, web development. Explore a portfolio highlighting diverse projects and a journey from law to tech. Seeking opportunities to contribute skills in back end development, Python, JS, SQL, and more.">
-</head>
-<body>
-    <h1>Hello world, Welcome to Koyejo</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="icon" type="image/x-icon" href="/static/images/kaygeea_logo_light_mode.svg">
+        <title>Koyejo Adinlewa | Web Developer, Software Engineer</title>
+        <meta name="desciption" content="Koyejo, a trained lawyer turned Software Engineer, showcasing mastery in C, Python, JavaScript, shell scripting, web stack management, web development. Explore a portfolio highlighting diverse projects and a journey from law to tech. Seeking opportunities to contribute skills in back end development, Python, JS, SQL, and more." >
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css" rel="stylesheet" >
+        <link rel="stylesheet" href="../static/css/main.css" >
+    </head>
+    <body>
+        <div class="bg-gradient-to-b from-purple-300 from-40% to-purple-700 to-60% mx-auto dark:bg-purple-950 text-purple-text-900 dark:text-purple-text-100">
+            <nav class="bg-purple-300 border-purple-300 dark:bg-purple-950">
+                <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                    <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+                        <img id="light_mode_logo" src="/static/images/kaygeea_logo_light_mode.svg" alt="Kaygeea logo - light mode" width="60" height="70" class="dark:hidden">
+                        <img id="dark_mode_logo" src="/static/images/kaygeea_logo_dark_mode.svg" alt="Kaygeea logo - dark mode" width="60" height="70" class="hidden dark:inline">
+                        <!--<span class="self-center text-2xl font-semibold whitespace-nowrap text-purple-text-900 dark:text-purple-text-100">Kaygeea</span> -->
+                    </a>
+                    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-purple-text-900 rounded-lg md:hidden hover:bg-purple-500 focus:outline-none focus:ring-2 focus:ring-purple-200 dark:text-purple-300 dark:hover:bg-purple-500 dark:focus:ring-purple-200" aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"></path>
+                        </svg>
+                    </button>
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                        <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-purple-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 text-purple-text-900 dark:text-purple-text-100">
+                            <li>
+                                <a href="#about" class="block py-2 px-3 text-purple-text-900 rounded md:bg-transparent md:text-purple-300 md:p-0 dark:text-purple-300 md:dark:text-purple-text-100" aria-current="page">About</a>
+                            </li>
+                            <li>
+                                <a href="#skills" class="block py-2 px-3 text-purple-text-900 rounded hover:bg-purple-500 md:hover:bg-transparent md:border-0 md:hover:text-purple-950 md:p-0 dark:text-purple-text-100 md:dark:hover:text-blue-500 dark:hover:bg-purple-500 dark:hover:text-purple-200 md:dark:hover:bg-transparent">Skills</a>
+                            </li>
+                            <li>
+                                <a href="#projects" class="block py-2 px-3 text-purple-text-900 rounded hover:bg-purple-500 md:hover:bg-transparent md:border-0 md:hover:text-purple-950 md:p-0 dark:text-purple-text-100 md:dark:hover:text-blue-500 dark:hover:bg-purple-500 dark:hover:text-purple-200 md:dark:hover:bg-transparent">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="block py-2 px-3 text-purple-text-900 rounded hover:bg-purple-500 md:hover:bg-transparent md:border-0 md:hover:text-purple-950 md:p-0 dark:text-purple-text-100 md:dark:hover:text-blue-500 dark:hover:bg-purple-500 dark:hover:text-purple-200 md:dark:hover:bg-transparent">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <section>
+                <div class="relative h-full w-full bg-indigo-700">
+                    <img src="/static/images/hero_background_small.png" alt="Collage of Koyejo" class="absolute inset-0 object-cover w-full h-full opacity-35">
+                    <div class="flex flex-col absolute inset-0 justify-between p-8 z-10">
+                        <div class="flex justify-start text-6xl">
+                            <h1>YOU ARE</h1>
+                        </div>
+                        <div class="flex justify-center text-5xl">
+                            <p>ABOUT TO BE INTRODUCED TO...</p>
+                        </div>
+                        <div class="flex justify-end text-7xl">
+                            <h2><strong>KOYEJO ADINLEWA</strong></h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div id="about" class="dark:bg-purple-950">
+                    ABOUT
+                </div>
+            </section>  
+            <section>
+                <div id="skills" class="dark:bg-purple-950">
+                    SKILLS
+                </div>
+            </section>
+            <section>
+                <div id="projects" class="dark:bg-purple-950">
+                    PROJECTS
+                </div>
+            </section>
+            <section>
+                <div id="contact" class="dark:bg-purple-950">
+                    CONTACT ME
+                </div>
+            </section>  
+        </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"></script>
+    <script type="module" src="{{ url_for('static', filename='js/animate.js') }}"></script>
+  </body>
 </html>
