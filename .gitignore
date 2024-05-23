@@ -21,6 +21,7 @@ yarn-error.log*
 Thumbs.db
 
 # Python virtual environment
+.venv/
 venv/
 env/
 
